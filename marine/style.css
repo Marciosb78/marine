@@ -1,0 +1,28 @@
+.primeiralinha {
+    background: #00B050;
+}
+table {
+    border-collapse: collapse;
+    background: #E2EFDA;
+    border: solid green 1px;
+}
+table tbody tr:nth-child(even) {
+    background: #FFFFFF;
+}
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+.colunaoplongocurso {
+    background: #FFFFFF;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.colunaopcabotagem {
+    background: #C6E0B4;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+table tbody tr:hover {
+    background: #00B050;
+}
